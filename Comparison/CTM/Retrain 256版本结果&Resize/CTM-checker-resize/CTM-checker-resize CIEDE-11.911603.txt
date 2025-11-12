@@ -1,0 +1,10 @@
+Cannon_D10_UW-Portrait.jpeg: avgImageCIEDE_str=12.062969 
+FujiFilm_Z33_UW-Portrait.jpeg: avgImageCIEDE_str=10.875659 
+Olympus_T6000_UW-Portrait.jpeg: avgImageCIEDE_str=10.254311 
+Olympus_T8000_UW_Portrait.jpeg: avgImageCIEDE_str=14.834670 
+Panasonic_TS1_UW-Portrait.jpeg: avgImageCIEDE_str=13.824294 
+Pentax_W60_UW-Portrait.jpeg: avgImageCIEDE_str=10.557036 
+Pentax_W80_UW-Portrait.jpeg: avgImageCIEDE_str=10.972278 
+
+Average of all images: CIEDE2000 = 11.911603 
+
