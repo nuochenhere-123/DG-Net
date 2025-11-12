@@ -1,0 +1,5 @@
+Total Params: 12.57 M
+Total FLOPs: 174.44 GFLOPSSaved output to ./results_DG/results_WO-DG/res-checker!
+Total time: 3.97 s
+Inference time per image: 0.5664 s
+最大 GPU 显存占用：2.34 GB

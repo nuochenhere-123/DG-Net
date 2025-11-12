@@ -1,0 +1,5 @@
+Total Params: 13.73 M
+Total FLOPs: 188.28 GFLOPSSaved output to ./results_DG/WO-NR-780/res-NUID!
+Total time: 217.55 s
+Inference time per image: 1.9777 s
+最大 GPU 显存占用：9.91 GB

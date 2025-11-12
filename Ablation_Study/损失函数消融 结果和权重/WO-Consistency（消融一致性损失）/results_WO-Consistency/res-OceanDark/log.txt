@@ -1,0 +1,5 @@
+Total Params: 13.73 M
+Total FLOPs: 188.28 GFLOPSSaved output to ./results_DG/results_WO-Consistency/res-OceanDark!
+Total time: 278.50 s
+Inference time per image: 1.5219 s
+最大 GPU 显存占用：4.01 GB

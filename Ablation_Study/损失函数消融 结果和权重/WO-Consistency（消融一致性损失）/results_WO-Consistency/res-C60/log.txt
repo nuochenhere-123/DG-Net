@@ -1,0 +1,5 @@
+Total Params: 13.73 M
+Total FLOPs: 188.28 GFLOPSSaved output to ./results_DG/results_WO-Consistency/res-C60!
+Total time: 148.48 s
+Inference time per image: 2.4747 s
+最大 GPU 显存占用：8.32 GB

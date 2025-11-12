@@ -1,0 +1,5 @@
+Total Params: 12.57 M
+Total FLOPs: 174.44 GFLOPSSaved output to ./results_DG/results_WO-DG/res-NUID!
+Total time: 171.39 s
+Inference time per image: 1.5581 s
+最大 GPU 显存占用：7.87 GB

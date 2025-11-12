@@ -1,0 +1,5 @@
+Total Params: 13.73 M
+Total FLOPs: 188.28 GFLOPSSaved output to ./results_DG/WO-NR-780/res-C60!
+Total time: 122.76 s
+Inference time per image: 2.0459 s
+最大 GPU 显存占用：8.32 GB
