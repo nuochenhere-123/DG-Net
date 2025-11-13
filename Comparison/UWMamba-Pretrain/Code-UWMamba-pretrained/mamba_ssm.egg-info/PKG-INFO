@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mamba_ssm
+Version: 2.2.2
+Summary: Mamba state-space model
+Author-email: Tri Dao <tri@tridao.me>, Albert Gu <agu@cs.cmu.edu>
+Project-URL: name, Repository
+Project-URL: url, https://github.com/state-spaces/mamba
+Keywords: cuda,pytorch,state-space model
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: ninja
+Requires-Dist: einops
+Requires-Dist: triton
+Requires-Dist: transformers
+Requires-Dist: packaging
+Requires-Dist: setuptools>=61.0.0
+Provides-Extra: causal-conv1d
+Requires-Dist: causal-conv1d>=1.2.0; extra == "causal-conv1d"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+https://github.com/LeonSakura/UWMamba
