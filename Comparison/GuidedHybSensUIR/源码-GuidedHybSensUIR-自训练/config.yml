@@ -1,0 +1,39 @@
+VERBOSE: True
+
+MODEL:
+  SESSION: 'uw'
+  INPUT: 'input'
+  TARGET: 'target'
+
+# Optimization arguments.
+OPTIM:
+  BATCH_SIZE: 5
+  NUM_EPOCHS: 300
+  LR_INITIAL: 2e-4
+  LR_MIN: 1e-6
+  SEED: 3407
+  WANDB: False
+
+TRAINING:
+  VAL_AFTER_EVERY: 1
+  RESUME: False
+  WEIGHT: ''
+  PS_W: 256
+  PS_H: 256
+  TRAIN_DIR: './train_data' # path to training data
+  VAL_DIR: './val_data'     # path to validation data
+  SAVE_DIR: './weights_retrain'          # path to save models
+  ORI: False
+  LOG_FILE: 'retrain_5_300'
+
+TESTING:
+  INPUT: ''
+  TARGET: ''
+  VAL_DIR: './Test/Test-checker'     # path to testing data
+  WEIGHT: './weights_retrain/uw_epoch_216.pth'
+  SAVE_IMAGES: True
+  RESULT_DIR: './results/res-checker'
+  LOG_FILE: ''
+
+LOG:
+  LOG_DIR: './log'
