@@ -1,0 +1,5 @@
+Total Params: 13.73 M
+Total FLOPs: 188.28 GFLOPSSaved output to ./results_DQ/RL_N_re150/res-checker!
+Total time: 5.38 s
+Inference time per image: 0.7687 s
+最大 GPU 显存占用：3.01 GB
