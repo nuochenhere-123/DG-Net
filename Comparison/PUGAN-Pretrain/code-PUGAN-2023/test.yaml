@@ -1,0 +1,15 @@
+# image info
+chans: 3
+im_width: 256
+im_height: 256
+
+data_dir : ./test/Test-checker/
+sample_dir : ./results_ToResize/PUGAN-checker/
+gtr_dir : ./tests/gt/
+path_gen : ./checkpoints/ugan_generator_1000.110.1from49lr1-4_cri10_uiebdd_29.pth
+path_d : ./checkpoints/Par/Dnet.pth
+path_t : ./checkpoints/Par/Tnet.pth
+path_a : ./checkpoints/Par/coe.pth
+
+
+
