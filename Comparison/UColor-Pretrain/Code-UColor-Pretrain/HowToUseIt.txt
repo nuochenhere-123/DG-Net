@@ -1,0 +1,4 @@
+1 将 需要测试的文件夹 放入 ./Test 文件夹中
+2 将 对应 GDCP 结果文件夹依次放入 ./GDCP 中，每个子文件夹命名最好与对应测试文件夹名称相同 （GDCP-Matlab 代码在 ./Code-GDCP-MATLAB 中）
+3 修改 main_test.py 内的 基础文件夹路径（Line71&72）
+4 运行 main_test.py 即可，增强结果在测试文件夹下 “_out.png” 
