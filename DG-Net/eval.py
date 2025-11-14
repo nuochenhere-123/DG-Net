@@ -6,7 +6,6 @@ from data.data import *
 from torchvision import transforms
 from torch.utils.data import DataLoader
 from loss.losses import *
-from net.CIDNet import CIDNet
 
 eval_parser = argparse.ArgumentParser(description='Eval')
 eval_parser.add_argument('--perc', action='store_true', help='trained with perceptual loss')
@@ -79,27 +78,3 @@ def eval(model, testing_data_loader, model_path, output_folder, LOL=False):
     # if LOL:
     #     model.trans.gated = False
     torch.set_grad_enabled(True)
-    
-if __name__ == '__main__':
-    
-    cuda = True
-    if cuda and not torch.cuda.is_available():
-        raise Exception("No GPU found, or need to change CUDA_VISIBLE_DEVICES number")
-    
-    if not os.path.exists('./output'):          
-            os.mkdir('./output')  
-    
-    norm_size = True
-    num_workers = 1
-    alpha = None
-    if ep.UIE:
-        eval_data = DataLoader(dataset=get_eval_set("./datasets/780/eval/raw-780"), num_workers=num_workers, batch_size=1, shuffle=False)
-        output_folder = './output/raw-780/'
-        if ep.perc:
-            weight_path = './weights/UIE/w_perc.pth' # 自己模型训练得到的权重
-        else:
-            weight_path = './weights/UIE/wo_perc.pth'
-
-    eval_net = CIDNet().cuda()
-    eval(eval_net, eval_data, weight_path, output_folder,norm_size=norm_size,LOL=ep.lol)
-
