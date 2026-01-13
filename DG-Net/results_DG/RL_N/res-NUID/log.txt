@@ -1,5 +1,0 @@
-Total Params: 13.73 M
-Total FLOPs: 188.28 GFLOPSSaved output to ./results_DQ/RL_N_re150/res-NUID!
-Total time: 180.29 s
-Inference time per image: 1.6390 s
-最大 GPU 显存占用：9.91 GB

@@ -1,5 +1,0 @@
-Total Params: 13.73 M
-Total FLOPs: 188.28 GFLOPSSaved output to ./results_DQ/RL_N_re150/res-C60!
-Total time: 130.10 s
-Inference time per image: 2.1683 s
-最大 GPU 显存占用：8.32 GB
