@@ -1,4 +1,4 @@
-## A Degradation-Guided Semi-Supervised Network for Underwater Image Restoration
+## A Degradation-Guided Semi-Supervised Network for Underwater Image Restoration（DG-Net）
 + **Our code** is in the folder of "DG-Net". We have uploaded the code in the folder of net.
 + **6 testing sets (including Color-Checker7)** used in our paper are shown in the folder of "TestingSet
 + **The output of our DG-Net** is shown in the folder of "DG-Net-output"  
